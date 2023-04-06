@@ -2,6 +2,30 @@ body {
     font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN","メイリオ", sans-serif;
 }
 
+#title-block-header {
+    background-color: #2980b9;
+    text-align: center;
+    color: #ffffff;
+}
+
+.title-link-home {
+    margin : 0 1rem 1rem 1rem; 
+}
+
+.title-link-home a {
+    background-color: #2980b9;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.content article {
+    line-height: 1.8;
+}
+
+.content article section {
+    margin-bottom: 2rem;
+}
+
 .header-logo {
     width: 8.1875rem;
     height: 2.75rem;
@@ -25,4 +49,28 @@ body {
     margin: 16px;
     border: 1px solid #ccc;
     padding: 16px;
+}
+
+.content h1 {
+    font-size: 175%
+}
+
+.rst-content .toctree-wrapper>p.caption,h2 {
+    font-size: 150%
+}
+
+.content h3 {
+    font-size: 125%
+}
+
+.content h4 {
+    font-size: 115%
+}
+
+.content h5 {
+    font-size: 110%
+}
+
+.content h6 {
+    font-size: 100%
 }
